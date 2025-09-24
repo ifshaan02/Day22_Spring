@@ -1,2 +1,4 @@
 # Day22_Spring
 AOP Pointcut Declarations
+
+This project introduces the concept of pointcut declarations in Spring AOP, which are used to define reusable expressions that determine the join points where advice should be applied. Instead of repeating the same pointcut expression across multiple aspects, developers can declare a named pointcut once and then reference it wherever needed, improving clarity and maintainability. Pointcut declarations help in organizing cross-cutting logic by making the code more readable and reducing duplication, especially in larger applications where the same join points are targeted multiple times. Combined with Spring Boot, the setup and configuration are simplified, enabling aspects and pointcuts to be applied with minimal effort. This project serves as a practical starting point for understanding how pointcut declarations work and how they contribute to cleaner and more modular Spring applications.
